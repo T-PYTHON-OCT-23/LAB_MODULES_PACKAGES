@@ -1,5 +1,5 @@
 import datetime
 
 def current_date():
-      print(datetime.datetime.now().strftime("%Y-%m-%d"))
+      print(("The date of today is: ")+ datetime.datetime.now().strftime("%Y-%m-%d"))
 current_date()
